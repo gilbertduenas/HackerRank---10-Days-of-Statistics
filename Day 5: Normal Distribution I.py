@@ -1,12 +1,11 @@
 # https://www.hackerrank.com/challenges/s10-normal-distribution-1/problem
 
-import math
+from math import erf
 
 mean, std = map(int, input().split())
-cdf = lambda x: 0.5 * (1 + math.erf((x - mean) / (std * (2 ** 0.5))))
-
-print('{:.3f}'.format(cdf(float(input()))))
-
+f = float(input())
 x, y = map(int, input().split())
+cdf = lambda x: .5 + .5 * erf((x - mean)/2**.5/std)
 
-print('{:.3f}'.format(cdf(x) - cdf(y)))
+print(round(cdf(f), 3))
+print(round(cdf(y) - cdf(x), 3))
