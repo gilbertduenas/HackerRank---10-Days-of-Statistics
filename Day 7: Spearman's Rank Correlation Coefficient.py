@@ -15,3 +15,4 @@ d = [(rx[i] -ry[i])**2 for i in range(n)]
 rxy = 1 - (6 * sum(d)) / (n * (n*n - 1))
 
 print('%.3f' % rxy)
+
