@@ -13,4 +13,3 @@ for i in range(0, N):
 m = round(float(sum(l)/sum(W)), 1)
 
 print(m)
-
