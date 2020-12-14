@@ -18,3 +18,4 @@ else:
 print(int(median(L)))
 print(int(median(arr)))
 print(int(median(U)))
+
