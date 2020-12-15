@@ -13,7 +13,11 @@ n = list(map(int, input().split()))
 # These are values that are unusual compared to the rest of the data set by being especially small or large in numerical value. 
 print(np.mean(n))
 
-# 
+# The median is less affected by outliers and skewed data. 
+
+# Data should be ordinal.
 print(np.median(n))
+
+# Mode is good for categorical data and determining the most common category.
 print(int(stats.mode(n)[0]))
 
