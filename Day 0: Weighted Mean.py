@@ -1,5 +1,10 @@
 # https://www.hackerrank.com/challenges/s10-weighted-mean/problem
 
+# This is a mean where some values contribute more than others.
+
+# Useful when calculating a theoretically expected outcome where each outcome has a different probability of occurring, 
+# which is the key feature that distinguishes the weighted mean from the arithmetic mean.
+
 l = []
 
 N = int(input())
@@ -13,4 +18,3 @@ for i in range(0, N):
 m = round(float(sum(l)/sum(W)), 1)
 
 print(m)
-
