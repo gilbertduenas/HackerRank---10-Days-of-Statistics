@@ -1,5 +1,8 @@
 # https://www.hackerrank.com/challenges/s10-interquartile-range/problem
 
+# Interquartile ranges are good for showing how spread out your data is.
+# Use this in conjunction with median and total range to see how the data clusters around the mean.
+
 import statistics as stat
 
 n = int(input())
