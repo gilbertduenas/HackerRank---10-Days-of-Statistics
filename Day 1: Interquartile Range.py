@@ -3,6 +3,8 @@
 # Interquartile ranges are good for showing how spread out your data is.
 # Use this in conjunction with median and total range to see how the data clusters around the mean.
 
+# Unlike total range, the interquartile range has a breakdown point of 25%, and is thus often preferred to the total range.
+
 # The first quartile (Q1) is defined as the middle number between the smallest number (minimum) and the median of the data set. 
 # It is also known as the lower or 25th empirical quartile, as 25% of the data is below this point.
 
