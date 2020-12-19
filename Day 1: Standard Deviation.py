@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/s10-standard-deviation/problem
 
+# This is the amount of variation or dispersion of a set of values.
+
 n = int(input().strip())
 X = [int(x) for x in input().strip().split()]
 
