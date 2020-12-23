@@ -7,3 +7,4 @@ n = number_of_favorable_outcomes
 t = total_outcomes
 
 P(a) = n/t
+
