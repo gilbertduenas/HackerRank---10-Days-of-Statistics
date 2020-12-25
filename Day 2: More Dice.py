@@ -2,3 +2,4 @@
 
 # What is the probability that a value of 6 will be rolled with 2 six sided dice?
 
+# What is the probability that a value of 7 will be rolled with 3 six sided dice?
