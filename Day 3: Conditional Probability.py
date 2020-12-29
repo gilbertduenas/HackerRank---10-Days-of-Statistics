@@ -4,3 +4,4 @@
 
 # Suppose a family has 3 children, one of which is a boy. What is the probability that all children are boys?
 
+# Suppose a family has 4 children, one of which is a boy. What is the probability that the other children are girls?
