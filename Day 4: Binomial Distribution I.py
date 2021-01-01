@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/s10-binomial-distribution-1/problem
 
+#
+
 import math
 
 def bi_dist(x, n, p):
@@ -13,4 +15,3 @@ for i in range(3,7):
     b += bi_dist(i, n, p)   
 
 print("%.3f" %b)
-
