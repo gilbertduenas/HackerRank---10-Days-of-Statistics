@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/s10-geometric-distribution-1/problem
 
+# The geometric distribution represents the number of failures before you get a success in a series of Bernoulli trials. 
+
 prob = [float(i) for i in input().split(' ')]
 ins = int(input())
 
