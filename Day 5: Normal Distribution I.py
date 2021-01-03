@@ -9,3 +9,4 @@ cdf = lambda x: .5 + .5 * erf((x - mean)/2**.5/std)
 
 print(round(cdf(f), 3))
 print(round(cdf(y) - cdf(x), 3))
+
