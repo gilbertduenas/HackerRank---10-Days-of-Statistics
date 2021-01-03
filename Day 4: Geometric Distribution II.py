@@ -8,3 +8,4 @@ q = 1 - p
 prob = 1 - q**n
 
 print(round(prob,3))
+
