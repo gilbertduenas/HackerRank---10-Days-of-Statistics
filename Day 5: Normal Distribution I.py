@@ -2,6 +2,10 @@
 
 # In probability theory, a normal distribution is a type of continuous probability distribution for a real-valued random variable. 
 
+# The normal distribution is a probability distribution. 
+# It is also called Gaussian distribution because it was first discovered by Carl Friedrich Gauss.
+# The normal distribution is a continuous probability distribution that is very important in many fields of science.
+
 from math import erf
 
 mean, std = map(int, input().split())
