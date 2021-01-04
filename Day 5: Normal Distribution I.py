@@ -1,5 +1,7 @@
 # https://www.hackerrank.com/challenges/s10-normal-distribution-1/problem
 
+# In probability theory, a normal distribution is a type of continuous probability distribution for a real-valued random variable. 
+
 from math import erf
 
 mean, std = map(int, input().split())
