@@ -12,6 +12,8 @@ from math import erf
 mean, std = map(int, input().split())
 f = float(input())
 x, y = map(int, input().split())
+
+# cumulative distribution function is the probability that X will take a value less than or equal to x.
 cdf = lambda x: .5 + .5 * erf((x - mean)/2**.5/std)
 
 print(round(cdf(f), 3))
