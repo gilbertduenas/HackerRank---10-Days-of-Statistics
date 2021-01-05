@@ -6,6 +6,7 @@
 # It is also called Gaussian distribution because it was first discovered by Carl Friedrich Gauss.
 # The normal distribution is a continuous probability distribution that is very important in many fields of science.
 
+# erf is error function
 from math import erf
 
 mean, std = map(int, input().split())
