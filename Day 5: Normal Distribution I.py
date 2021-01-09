@@ -9,6 +9,7 @@
 # erf is error function
 from math import erf
 
+# Take the mean and standard deviation and calculate the normal distribution.
 mean, std = map(int, input().split())
 f = float(input())
 x, y = map(int, input().split())
