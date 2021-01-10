@@ -18,4 +18,3 @@ x = int(input())
 p = ((miu ** x) * exp(-m)) / factorial(x)
 
 print("%.3f" %p)
-
