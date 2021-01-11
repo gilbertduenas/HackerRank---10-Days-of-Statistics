@@ -1,5 +1,9 @@
 # https://www.hackerrank.com/challenges/s10-the-central-limit-theorem-1/problem
 
+# The central limit theorem (CLT) states that, for a large enough sample (N), 
+# the distribution of the sample mean will approach normal distribution. 
+# This holds for a sample of independent random variables from any distribution with a finite standard deviation.
+
 from math import erf,sqrt
 
 m = int(input())
