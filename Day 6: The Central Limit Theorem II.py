@@ -4,6 +4,9 @@
 # the distribution of the sample mean will approach normal distribution. 
 # This holds for a sample of independent random variables from any distribution with a finite standard deviation.
 
+# When independent random variables are added, their properly normalized sum tends toward a normal distribution 
+# (informally a bell curve) even if the original variables themselves are not normally distributed.
+
 from math import erf,sqrt
 
 m = int(input())
