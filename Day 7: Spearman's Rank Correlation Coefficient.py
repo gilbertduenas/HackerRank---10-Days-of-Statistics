@@ -1,5 +1,9 @@
 # https://www.hackerrank.com/challenges/s10-spearman-rank-correlation-coefficient/problem
 
+# In statistics, Spearman's rank correlation coefficient or Spearman's ρ, named after Charles Spearman and often denoted by the Greek letter rho,
+# is a nonparametric measure of rank correlation (statistical dependence between the rankings of two variables). 
+# It assesses how well the relationship between two variables can be described using a monotonic function.
+
 def get_rank(X, n):
     x_rank = dict((x, i+1) for i, x in enumerate(sorted(set(X))))
     return [x_rank[x] for x in X]
