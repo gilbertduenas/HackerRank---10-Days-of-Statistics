@@ -24,3 +24,4 @@ rxy = 1 - (6 * sum(d)) / (n * (n*n - 1))
 
 print('%.3f' % rxy)
 
+
