@@ -12,3 +12,4 @@ a = (sy / n) - b * (sx / n)
 
 print('{:.3f}'.format(a + b * 80))
 
+
