@@ -20,3 +20,4 @@ print(np.median(n))
 
 # Mode is good for categorical data and determining the most common category.
 print(int(stats.mode(n)[0]))
+
