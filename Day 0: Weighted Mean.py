@@ -19,4 +19,3 @@ m = round(float(sum(l)/sum(W)), 1)
 
 print(m)
 
-
