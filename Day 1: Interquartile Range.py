@@ -37,4 +37,3 @@ else:
 ir = round(float(q3-q1), 1)
 
 print(ir)
-
