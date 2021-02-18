@@ -7,3 +7,4 @@
 # Independent events occur when the outcome of one event does not affect the outcome of the second event. 
 
 # Rolling a four has no effect on tossing a head. 
+
